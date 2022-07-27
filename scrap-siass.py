@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Scrapper para SIASS.UNAM.MX
+# # Scraper para SIASS.UNAM.MX
 
 # ## Dependencias
 
@@ -43,7 +43,7 @@ for page in range(15):
     pages.append(main_page+str(page+1))
 
 
-# ## Scrapping
+# ## Scraping
 
 columns = ['Institución','Dependencia','Eje de acción','Objetivo','Lugares disponibles',
         'Lista de actividades','Entidad federativa','Delegación / Municipio','Colonia / Localidad',
